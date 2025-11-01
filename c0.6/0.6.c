@@ -10,7 +10,7 @@ int main(void)
 	{
 		if(ch!='n')
 		{
-			printf("请输入“y”或“n”\n");
+			printf("请输  入“y”或“n”\n");
 		}else{
 			printf("这个数是%d吗\n",++figure);
 	    }
