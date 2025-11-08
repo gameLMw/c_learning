@@ -1,7 +1,7 @@
 #include <stdio.h>
 void cheer(int i)
 {
-	printf("%d",i);
+	printf("%d", i);
 }
 int main()
 {

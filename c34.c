@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <string.h> 
-int main (void)
+#include <string.h>
+int main(void)
 {
     char str1[50];
     strcpy(str1, "Hello, ");

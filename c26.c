@@ -2,7 +2,7 @@
 int main()
 {
 	int a;
-	while(scanf("%d",&a)!=1)
+	while (scanf("%d", &a) != 1)
 	{
 		scanf("%*s");
 		printf("a");
