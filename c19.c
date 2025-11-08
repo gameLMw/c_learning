@@ -1,14 +1,14 @@
 #include <stdio.h>
-int main ()
+int main()
 {
-	int a,b,c;
-	scanf("%d %d",&a,&b);
-	while(b>0)
+	int a, b, c;
+	scanf("%d %d", &a, &b);
+	while (b > 0)
 	{
-		c=a%b;
-		a=b;
-		b=c;
+		c = a % b;
+		a = b;
+		b = c;
 	}
-	printf("%d",a);
+	printf("%d", a);
 	return 0;
 }
