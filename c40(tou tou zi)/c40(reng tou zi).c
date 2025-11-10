@@ -18,7 +18,7 @@ int main(void)
     }
     while (1)
     {
-        printf("按回车键扔骰子，按其他键退出：");
+        printf("按回车键扔骰子，按其他键退出：\n");
         if (getchar() != '\n')
             break;
         printf("你扔出了 %d 个 %d 面的骰子，总点数为：%d\n", j, i, num(i, j));
