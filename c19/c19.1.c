@@ -2,16 +2,16 @@
 #include <stdio.h>
 int main(void)
 {
-    int num1, num2, num3;
+    int num1, num2, i;
     printf("请输入两个整数：");
     scanf("%d %d", &num1, &num2);
-    for (int i = 1; i <= (num1 < num2 ? num1 : num2); i++)
+    for (i = (num1 < num2 ? num1 : num2); i >= 1; i--)
     {
         if (num1 % i == 0 && num2 % i == 0)
         {
-            num3 = i;
+            break;
         }
     }
-    printf("最大公约数是：%d\n", num3);
+    printf("最大公约数是：%d\n", i);
     return 0;
 }
