@@ -54,7 +54,7 @@ int main()
     new_film = head;
     while (new_film != NULL)
     {
-        printf("电影: %s                评分: %d\n", new_film->title, new_film->rating);
+        printf("电影: %-45s评分: %d\n", new_film->title, new_film->rating);
         new_film = new_film->next;
     }
     new_film = head;
