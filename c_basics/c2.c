@@ -2,7 +2,6 @@
 int main()
 {
 	double a; // double 小数表达
-
 	double b;
 	scanf("%lf %lf", &a, &b);
 	printf("%f",
